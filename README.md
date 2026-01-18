@@ -13,7 +13,7 @@
 Add the following if using lazy:
 ```lua
 {
-  "monocode-scheme/neovim",
+  "mono-code-scheme/neovim",
   lazy = false,
   priority = 1000,
   config = function()
