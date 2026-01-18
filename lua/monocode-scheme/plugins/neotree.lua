@@ -1,0 +1,11 @@
+function SetupNeotreePlugin(colors)
+	vim.api.nvim_set_hl(0, "NeoTreeGitModified", { fg = colors.yellow })
+	vim.api.nvim_set_hl(0, "NeoTreeGitUntracked", { fg = colors.orange })
+	vim.api.nvim_set_hl(0, "NeoTreeFileName", { fg = colors.t1 })
+	vim.api.nvim_set_hl(0, "NeoTreeMessage", { fg = colors.t3 })
+	vim.api.nvim_set_hl(0, "NeoTreeFileStats", { fg = colors.t3 })
+	vim.api.nvim_set_hl(0, "NeoTreeFileStatsHeader", { fg = colors.t3 })
+	vim.api.nvim_set_hl(0, "NeoTreeFloatBorder", { fg = colors.n4 })
+	vim.api.nvim_set_hl(0, "NeoTreeTitleBar", { fg = colors.t0, bg = colors.n4 })
+	vim.api.nvim_set_hl(0, "NeoTreeGitDeleted", { fg = colors.red })
+end
